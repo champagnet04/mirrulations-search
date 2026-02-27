@@ -64,6 +64,14 @@ class DBLayer:
                 for row in cur.fetchall()
             ]
 
+def search_dockets():
+    return
+
+def search_documents():
+    return
+
+def search_comments():
+    return
 
 def get_postgres_connection() -> DBLayer:
     if LOAD_DOTENV is not None:
